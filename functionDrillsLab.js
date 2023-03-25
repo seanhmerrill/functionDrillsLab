@@ -84,7 +84,7 @@ greeting('Jake')
 
 //CODE HERE
 
-/*
+
 const compareNums = (num1, num2) => {
   if (num1 > num2){
     return num1
@@ -92,7 +92,6 @@ const compareNums = (num1, num2) => {
     return num2
   }
 }
-*/
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -104,7 +103,13 @@ const compareNums = (num1, num2) => {
 
 //CODE HERE
 
+let sum = add(7, 11)
 
+function add(num1, num2){
+  return Number(num1 + num2);
+}
+
+console.log(sum)
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -119,7 +124,7 @@ const exclaim = function(str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+console.log('expression')
 
 
 
@@ -134,7 +139,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// console.log('arrow')
+console.log('arrow')
 // console.log('declaration')
 // console.log('expression')
 
@@ -159,7 +164,7 @@ function exclaimFour(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
+console.log('declaration')
 // console.log('expression')
 
 
@@ -173,6 +178,7 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
 
 
 ////////////////// PROBLEM 11 ////////////////////
